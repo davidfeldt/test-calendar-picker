@@ -43,6 +43,8 @@ const App = () => {
           todayBackgroundColor="#e6ffe6"
           selectedDayColor="#66ff33"
           selectedDayTextColor="#000000"
+          selectedStartDate={selectedStartDate}
+          selectedEndDate={selectedEndDate}
           scaleFactor={375}
           onDateChange={onDateChange}
         />
